@@ -1,0 +1,10 @@
+body {
+    text-align: center;
+}
+
+.game-character h2 {
+    margin-bottom: 0;
+}
+.game-character .char-image.active {
+    background: url(../images/Selector.png);
+}
