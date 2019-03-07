@@ -1,16 +1,37 @@
+html {
+  background: url(../images/background.png) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+
 body {
-    text-align: center;
-    font-family: Lato, sans-serif;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Homenaje', sans-serif;
+  color: #252b33;
 }
 
-canvas {
-	margin-top: 0;
-	padding-top: 0;
+h1{
+  margin-bottom: 0px;
+  font-size: 45px;
+  margin-top: 2em;
+  color: #ff3366;
+}
+/* Style the button */
+#start{
+  background-color:  #ff3366;; /* pinkish */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 12px;
+  font-size: 16px;
+  margin: 4% 2px;
+  cursor: pointer;
 }
 
-.game-character h2 {
-    margin-bottom: 0;
-}
-.game-character .char-image.active {
-    background: url(../images/Selector.png);
+#start:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
